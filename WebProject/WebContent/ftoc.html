@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<body>
+<form>
+<input type="button" value="click"
+onclick="fun1()"/>
+</form>
+		<script>
+function fun1()
+{
+	document.write("<table border=1>");
+	document.write("<caption>Table Caption</caption>");
+	document.write("<tr><th>Celcius</th><th>Farenheit</th></tr>");
+}
+	var f;
+    for(var i=0;i<=50;i++)
+    {
+        f=((i*9)/5)+32;
+        document.write("<tr><td>" +i+ "</td><td>" +f+ "</td></tr>");
+    }
+
+     </script>
+   </TABLE>
+</body>
+</head>
+</html>
